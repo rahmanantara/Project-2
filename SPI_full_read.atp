@@ -1,0 +1,54 @@
+// nonunique_sites allows the same source engine(s)
+// and ADS lines to be shared across sites wherever possible
+import tset time_func, TS_SPI_4M;
+
+instruments = {
+        (SPI_SDO):DigCap 8:serial:auto_trig_enable;
+        (SPI_SDI):DigSrc 6:serial:nonunique_sites:format=ones_complement;
+}
+
+srm_vector     
+dssc_array_srm2 ( $tset    , SPI_CSN, SPI_SCK, SPI_SDI, SPI_SDO)
+{
+global dssc_start:
+((SPI_SDI):DigSrc = Start DSSCSrcSig) 
+                > TS_SPI_4M  1        1        X        X       ; 
+repeat 1444     > TS_SPI_4M  1        1        X        X       ; 
+set_msb 16      > TS_SPI_4M  1        1        X        X       ; 
+set c0 16       > TS_SPI_4M  1        1        X        X       ; 
+loop:
+loop c0         > TS_SPI_4M  0        1        0        X       ; 
+                > TS_SPI_4M  0        1        1        X       ; 
+((SPI_SDI):DigSrc = Send) 
+                > TS_SPI_4M  0        1        D        X       ; 
+((SPI_SDI):DigSrc = Send) 
+                > TS_SPI_4M  0        1        D        X       ; 
+((SPI_SDI):DigSrc = Send) 
+                > TS_SPI_4M  0        1        D        X       ; 
+((SPI_SDI):DigSrc = Send) 
+                > TS_SPI_4M  0        1        D        X       ; 
+((SPI_SDI):DigSrc = Send) 
+                > TS_SPI_4M  0        1        D        X       ; 
+((SPI_SDI):DigSrc = Send) 
+                > TS_SPI_4M  0        1        D        X       ; 
+((SPI_SDO):DigCap = Store) 
+                > TS_SPI_4M  0        1        X        V       ; 
+((SPI_SDO):DigCap = Store) 
+                > TS_SPI_4M  0        1        X        V       ; 
+((SPI_SDO):DigCap = Store) 
+                > TS_SPI_4M  0        1        X        V       ; 
+((SPI_SDO):DigCap = Store) 
+                > TS_SPI_4M  0        1        X        V       ; 
+((SPI_SDO):DigCap = Store) 
+                > TS_SPI_4M  0        1        X        V       ; // 144 cycles required to flush the pipeline 
+((SPI_SDO):DigCap = Store) 
+                > TS_SPI_4M  0        1        X        V       ; 
+((SPI_SDO):DigCap = Store) 
+                > TS_SPI_4M  0        1        X        V       ; 
+((SPI_SDO):DigCap = Store) 
+                > TS_SPI_4M  0        1        X        V       ; 
+                > TS_SPI_4M  0        1        X        X       ; 
+end_loop loop   > TS_SPI_4M  1        1        X        X       ; 
+dssc_stop:
+halt            > TS_SPI_4M  1        1        X        X       ; 
+}

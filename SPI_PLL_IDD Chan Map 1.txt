@@ -1,0 +1,21 @@
+DTChanMap,version=2.6:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Channel Map					
+						
+	DIB ID:			View Mode:	Pogo	
+	USL Tag:					
+	Device Under Test		Tester Channel			
+	Pin Name	Package Pin	Type	Site 0	Comment	
+	I_CLK_26M		        I/O	22.e106		
+	SPI_CSN		                I/O	22.g113		
+	SPI_SCK		                I/O	22.e115		
+	SPI_SDI		                I/O	22.e119		
+	SPI_SDO		                I/O	22.e117		
+	PAT_IN_D0		        I/O	22.e139		
+	PAT_IN_D1		        I/O	22.e147		
+	PAT_IN_CLK		        I/O	22.e151		
+	PAT_IN_CTRL		        I/O	22.g106		
+	O_CLK_A		                I/O	22.g119		
+	O_CLK_B		                I/O	22.e113		
+	O_CLK_C		                I/O	22.g117		
+	O_CLK_D		                I/O	22.g137		
+	VCC		                DCVS	18.e201		
+	VCCIO		                DCVS	18.e228		

@@ -1,0 +1,21 @@
+import tset TS_SPI_4M;
+srm_vector
+spi_fixed_read ( SPI_CSN, SPI_SCK, SPI_SDI, SPI_SDO)
+{
+$tset tset TS_SPI_4M  > 0        1        0        X       ; 
+$tset tset TS_SPI_4M  > 0        1        1        X       ; 
+$tset tset TS_SPI_4M  > 0        1        0        X       ; 
+$tset tset TS_SPI_4M  > 0        1        0        X       ; 
+$tset tset TS_SPI_4M  > 0        1        0        X       ; 
+$tset tset TS_SPI_4M  > 0        1        1        X       ; 
+$tset tset TS_SPI_4M  > 0        1        1        X       ; 
+$tset tset TS_SPI_4M  > 0        1        0        X       ; 
+$tset tset TS_SPI_4M  > 0        1        X        L       ; 
+$tset tset TS_SPI_4M  > 0        1        X        H       ; 
+$tset tset TS_SPI_4M  > 0        1        X        L       ; 
+$tset tset TS_SPI_4M  > 0        1        X        H       ; 
+$tset tset TS_SPI_4M  > 0        1        X        L       ; 
+$tset tset TS_SPI_4M  > 0        1        X        H       ; 
+$tset tset TS_SPI_4M  > 0        1        X        L       ; 
+halt$tset tset TS_SPI_4M  > 0        1        X        H       ; 
+}

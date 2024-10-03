@@ -1,0 +1,30 @@
+DTChanMap,version=2.6:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:dataformat=pogo2	Channel Map						
+							
+	DIB ID:			View Mode:	Pogo		
+	USL Tag:						
+	Device Under Test		Tester Channel				
+	Pin Name	Package Pin	Type	Site 0	Site 1	Comment	
+	dir	1	I/O	19.g102	19.c182		
+	b1	2	I/O	19.e102	19.c184		
+	b2	3	I/O	19.e104	19.c175		
+	b3	4	I/O	19.e106	19.c180		
+	b4	5	I/O	19.e108	19.a175		
+	gnd	6	Gnd				
+	b5	7	I/O	19.e115	19.a158		
+	b6	8	I/O	19.e117	19.a153		
+	b7	9	I/O	19.e119	19.a151		
+	b8	10	I/O	19.g119	19.a149		
+	tdo	11	I/O	19.g117	19.c151	scan in	
+	tms	12	I/O	19.g126	19.c153		
+	tck	13	I/O	19.e135	19.c164		
+	tdi	14	I/O	19.g135	19.c173	scan out	
+	a8	15	I/O	19.g128	19.c171		
+	a7	16	I/O	19.g130	19.a169		
+	a6	17	I/O	19.e130	19.a171		
+	Vcc	18	DCVS	15.e208	15.e201		
+	a5	19	I/O	19.e128	19.a173		
+	a4	20	I/O	19.e113	19.a180		
+	a3	21	I/O	19.g113	19.a182		
+	a2	22	I/O	19.g115	19.a184		
+	a1	23	I/O	19.g106	19.a186		
+	oe	24	I/O	19.g108	19.c186		

@@ -1,0 +1,38 @@
+DTChanMap,version=2.6:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:dataformat=pogo2	Channel Map						
+							
+	DIB ID:			View Mode:	Pogo		
+	USL Tag:						
+	Device Under Test		Tester Channel				
+	Pin Name	Package Pin	Type	Site 0	Site 1	Comment	
+	dir	Pin 1	I/O	21.e115	21.a158		For use with Digital Proto-strip DIB	
+	a1	Pin 2	I/O	21.e117	21.a153		Change Slot numbers per your configuration	
+	a2	Pin 3	I/O	21.e119	21.a151		
+	a3	Pin 4	I/O	21.g119	21.a149		
+	a4	Pin 5	I/O	21.g117	21.c151		
+	a5	Pin 6	I/O	21.g126	21.c153		
+	a6	Pin 7	I/O	21.g124	21.c158		
+	a7	Pin 8	I/O	21.e124	21.c160		
+	a8	Pin 9	I/O	21.e126	21.c162		
+	gnd	Pin 10	N/C				
+	b8	Pin 11	I/O	21.g104	21.a160		
+	b7	Pin 12	I/O	21.g139	21.a162		
+	b6	Pin 13	I/O	21.g137	21.a164		
+	b5	Pin 14	I/O	21.e137	21.c169		
+	b4	Pin 15	I/O	21.e135	21.c164		
+	b3	Pin 16	I/O	21.g135	21.c173		
+	b2	Pin 17	I/O	21.g128	21.c171		
+	b1	Pin 18	I/O	21.g130	21.a169		
+	oe	Pin 19	I/O	21.e130	21.a171		
+	vcc	Pin 20	DCVS	15.e208	15.e201		
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+					9.3sense14A		

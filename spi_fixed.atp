@@ -1,0 +1,23 @@
+import tset TS_SPI_4M, tset0;
+srm_vector
+spi_fixed ( SPI )
+{
+$tset TS_SPI_4M  > 11XX ; 
+$tset TS_SPI_4M  > 11XX ; 
+$tset TS_SPI_4M  > 010X ; 
+$tset TS_SPI_4M  > 011X ; 
+$tset TS_SPI_4M  > 010X ; 
+$tset TS_SPI_4M  > 010X ; 
+$tset TS_SPI_4M  > 010X ; 
+$tset TS_SPI_4M  > 011X ; 
+$tset TS_SPI_4M  > 011X ; 
+$tset TS_SPI_4M  > 010X ; 
+$tset TS_SPI_4M  > 01XH ; 
+$tset TS_SPI_4M  > 01XL ; 
+$tset TS_SPI_4M  > 01XH ; 
+$tset TS_SPI_4M  > 01XL ; 
+$tset TS_SPI_4M  > 01XH ; 
+$tset TS_SPI_4M  > 01XL ; 
+$tset TS_SPI_4M  > 11XX ; 
+halt             $tset TS_SPI_4M > 11XX ; 
+}
