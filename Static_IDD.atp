@@ -1,0 +1,26 @@
+import tset TS_IDD, TSet;
+srm_vector       ( $tset , PAT_IN_D0, PAT_IN_D1, PAT_IN_CLK, PAT_IN_CTRL)
+{
+global static_idd:
+                  > TS_IDD  0          0          0           0           ; 
+                  > TS_IDD  1          1          1           1           ; 
+                  > TS_IDD  1          1          1           1           ; 
+                  > TS_IDD  0          0          1           0           ; //D15
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  1          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; 
+                  > TS_IDD  0          0          1           0           ; //D0
+                  > TS_IDD  0          0          1           1           ; 
+halt              > TS_IDD  0          0          0           0           ; 
+}

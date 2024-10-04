@@ -46,52 +46,6 @@
 			<bit function="SPI_SDO" cycle="16" />
 		</field>
 	</frame>
-	<frame name="write" description="" type="Write" ascending_algorithm="" descending_algorithm="">
-		<data>
-			<cycle repeat="0">1 0 X X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - D X</cycle>
-			<cycle repeat="0">0 - X X</cycle>
-			<cycle repeat="0">0 - X X</cycle>
-			<cycle repeat="0">0 - X X</cycle>
-			<cycle repeat="0">1 - X X</cycle>
-			<cycle repeat="0">1 - X X</cycle>
-		</data>
-		<field name="instruction_write" description="" length="0" variableLength="false">
-			<bit function="SPI_SDI" cycle="1" />
-			<bit function="SPI_SDI" cycle="2" />
-			<bit function="SPI_SDI" cycle="3" />
-			<bit function="SPI_SDI" cycle="4" />
-			<bit function="SPI_SDI" cycle="5" />
-			<bit function="SPI_SDI" cycle="6" />
-			<bit function="SPI_SDI" cycle="7" />
-			<bit function="SPI_SDI" cycle="8" />
-		</field>
-		<field name="data_write" description="" length="0" variableLength="false">
-			<bit function="SPI_SDI" cycle="9" />
-			<bit function="SPI_SDI" cycle="10" />
-			<bit function="SPI_SDI" cycle="11" />
-			<bit function="SPI_SDI" cycle="12" />
-			<bit function="SPI_SDI" cycle="13" />
-			<bit function="SPI_SDI" cycle="14" />
-			<bit function="SPI_SDI" cycle="15" />
-			<bit function="SPI_SDI" cycle="16" />
-		</field>
-	</frame>
 	<frame name="stop" description="" type="Idle" ascending_algorithm="" descending_algorithm="">
 		<data>
 			<cycle repeat="0">X X X X</cycle>

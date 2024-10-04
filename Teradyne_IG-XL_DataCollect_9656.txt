@@ -1,5 +1,5 @@
 Datalog report
-10/04/2024 00:14:49
+10/04/2024 03:58:58
       Prog Name:    rahmana_i8243_p2.igxl
        Job Name:    rahmana_i8243_p2.igxl
             Lot:     
@@ -19,28 +19,24 @@ Datalog report
  Number   Site  Test Name       Pattern             1st Failed Cycle  Total Failed Cycles  
 <func_t1>
  0        0     func_t1         cont_pat.patx       N/A               N/A                  
-
- Number   Site  Test Name       Pin         Channel  Low            Measured           High           Force          Loc     
-<cont_VBT1>
- 1        0     Continuity_VBT  I_CLK_26M   19.e106  N/A            -639.0228 mV       N/A            -100.0000 uA   0       
- 2        0     Continuity_VBT  O_CLK_A     19.g119  N/A            -637.5338 mV       N/A            -100.0000 uA   0       
- 3        0     Continuity_VBT  O_CLK_B     19.e113  N/A            -637.5160 mV       N/A            -100.0000 uA   0       
- 4        0     Continuity_VBT  O_CLK_C     19.g117  N/A            -637.7673 mV       N/A            -100.0000 uA   0       
- 5        0     Continuity_VBT  O_CLK_D     19.g137  N/A            -638.7472 mV       N/A            -100.0000 uA   0       
- 6        0     Continuity_VBT  PAT_IN_CLK  19.e151  N/A            -640.0340 mV       N/A            -100.0000 uA   0       
- 7        0     Continuity_VBT  PAT_IN_CTRL 19.g106  N/A            -636.8779 mV       N/A            -100.0000 uA   0       
- 8        0     Continuity_VBT  PAT_IN_D0   19.e139  N/A            -640.8970 mV       N/A            -100.0000 uA   0       
- 9        0     Continuity_VBT  PAT_IN_D1   19.e147  N/A            -640.3733 mV       N/A            -100.0000 uA   0       
- 10       0     Continuity_VBT  SPI_CSN     19.g113  N/A            -639.1480 mV       N/A            -100.0000 uA   0       
- 11       0     Continuity_VBT  SPI_SCK     19.e115  N/A            -638.8678 mV       N/A            -100.0000 uA   0       
- 12       0     Continuity_VBT  SPI_SDI     19.e119  N/A            -639.7169 mV       N/A            -100.0000 uA   0       
- 13       0     Continuity_VBT  SPI_SDO     19.e117  N/A            -640.1641 mV       N/A            -100.0000 uA   0       
-
- Number   Site  Test Name       Pattern             1st Failed Cycle  Total Failed Cycles  
 <func_t2>
  14       0     func_t2         spi_fixed.patx      N/A               N/A                  
 
  Number   Site  Test Name       Pin         Channel  Low            Measured           High           Force          Loc     
+<cont_VBT1>
+ 1        0     Continuity_VBT  I_CLK_26M   19.e106  N/A            -640.7015 mV       N/A            -100.0000 uA   0       
+ 2        0     Continuity_VBT  O_CLK_A     19.g119  N/A            -639.0596 mV       N/A            -100.0000 uA   0       
+ 3        0     Continuity_VBT  O_CLK_B     19.e113  N/A            -639.3472 mV       N/A            -100.0000 uA   0       
+ 4        0     Continuity_VBT  O_CLK_C     19.g117  N/A            -639.5989 mV       N/A            -100.0000 uA   0       
+ 5        0     Continuity_VBT  O_CLK_D     19.g137  N/A            -639.8157 mV       N/A            -100.0000 uA   0       
+ 6        0     Continuity_VBT  PAT_IN_CLK  19.e151  N/A            -642.0192 mV       N/A            -100.0000 uA   0       
+ 7        0     Continuity_VBT  PAT_IN_CTRL 19.g106  N/A            -638.4043 mV       N/A            -100.0000 uA   0       
+ 8        0     Continuity_VBT  PAT_IN_D0   19.e139  N/A            -641.0496 mV       N/A            -100.0000 uA   0       
+ 9        0     Continuity_VBT  PAT_IN_D1   19.e147  N/A            -641.7467 mV       N/A            -100.0000 uA   0       
+ 10       0     Continuity_VBT  SPI_CSN     19.g113  N/A            -641.2847 mV       N/A            -100.0000 uA   0       
+ 11       0     Continuity_VBT  SPI_SCK     19.e115  N/A            -640.6990 mV       N/A            -100.0000 uA   0       
+ 12       0     Continuity_VBT  SPI_SDI     19.e119  N/A            -640.9379 mV       N/A            -100.0000 uA   0       
+ 13       0     Continuity_VBT  SPI_SDO     19.e117  N/A            -641.6902 mV       N/A            -100.0000 uA   0       
 <DSSC_spi_read1>
  15       0     Reg0X00                     -1       170.0000       170.0000           170.0000       0.0000         0       
  16       0     Reg0X01                     -1       1.0000         1.0000             1.0000         0.0000         0       
@@ -92,10 +88,29 @@ Datalog report
  60       0     Reg0X0D                     -1       50.0000        50.0000            50.0000        0.0000         0       
  61       0     Reg0X0E                     -1       52.0000        52.0000            52.0000        0.0000         0       
  62       0     Reg0X0F                     -1       54.0000        54.0000            54.0000        0.0000         0       
+<SPI_PA_write1>
+ 63       0     Reg0X00                     -1       23.0000        23.0000            23.0000        0.0000         0       
+ 64       0     Reg0X01                     -1       24.0000        24.0000            24.0000        0.0000         0       
+ 65       0     Reg0X02                     -1       25.0000        25.0000            25.0000        0.0000         0       
+ 66       0     Reg0X03                     -1       26.0000        26.0000            26.0000        0.0000         0       
+ 67       0     Reg0X04                     -1       27.0000        27.0000            27.0000        0.0000         0       
+ 68       0     Reg0X05                     -1       28.0000        28.0000            28.0000        0.0000         0       
+ 69       0     Reg0X06                     -1       29.0000        29.0000            29.0000        0.0000         0       
+ 70       0     Reg0X07                     -1       30.0000        30.0000            30.0000        0.0000         0       
+ 71       0     Reg0X08                     -1       31.0000        31.0000            31.0000        0.0000         0       
+ 72       0     Reg0X09                     -1       32.0000        32.0000            32.0000        0.0000         0       
+ 73       0     Reg0X0A                     -1       33.0000        33.0000            33.0000        0.0000         0       
+ 74       0     Reg0X0B                     -1       0.0000         0.0000             0.0000         0.0000         0       
+ 75       0     Reg0X0C                     -1       50.0000        50.0000            50.0000        0.0000         0       
+ 76       0     Reg0X0D                     -1       52.0000        52.0000            52.0000        0.0000         0       
+ 77       0     Reg0X0E                     -1       54.0000        54.0000            54.0000        0.0000         0       
+ 78       0     Reg0X0F                     -1       56.0000        56.0000            56.0000        0.0000         0       
+<Sleep_IDD2>
+ 79       0     Icc_dynamic     VCCIO       15.e228  N/A            3.1782 uA          N/A            0.0000 V       0       
 
  Site Failed tests/Executed tests
 ------------------------------------
-    0       0      63
+    0       0      80
 
  Site    Sort     Bin
 ------------------------------------

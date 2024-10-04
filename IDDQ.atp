@@ -1,0 +1,74 @@
+import tset TS_IDD, TSet;
+srm_vector                      ( $tset , PAT_IN_D0, PAT_IN_D1, PAT_IN_CLK, PAT_IN_CTRL)
+{
+global iddq1:
+                                 > TS_IDD  0          0          0           0           ; 
+                                 > TS_IDD  1          1          1           1           ; 
+branch_expr = (cpuA_cond)        > TS_IDD  1          1          1           1           ; 
+set_cpu_cond (cpuA_cond)         > TS_IDD  0          0          1           0           ; //D15
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  1          1          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; //D0
+                                 > TS_IDD  0          0          1           1           ; 
+loop_iddq1:
+if (branch_expr) jump loop_iddq1 > TS_IDD  0          0          0           0           ; 
+global iddq2:
+                                 > TS_IDD  0          0          0           0           ; 
+                                 > TS_IDD  1          1          1           1           ; 
+branch_expr = (cpuA_cond)        > TS_IDD  1          1          1           1           ; 
+set_cpu_cond (cpuA_cond)         > TS_IDD  0          0          1           0           ; //D15
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  1          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; //D0
+                                 > TS_IDD  0          0          1           1           ; 
+loop_iddq2:
+if (branch_expr) jump loop_iddq2 > TS_IDD  0          0          0           0           ; 
+global iddq3:
+                                 > TS_IDD  0          0          0           0           ; 
+                                 > TS_IDD  1          1          1           1           ; 
+branch_expr = (cpuA_cond)        > TS_IDD  1          1          1           1           ; 
+set_cpu_cond (cpuA_cond)         > TS_IDD  0          0          1           0           ; //D15
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  1          0          1           0           ; 
+                                 > TS_IDD  1          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; 
+                                 > TS_IDD  0          0          1           0           ; //D0
+                                 > TS_IDD  0          0          1           1           ; 
+loop_iddq3:
+if (branch_expr) jump loop_iddq3 > TS_IDD  0          0          0           0           ; 
+halt                             > TS_IDD  0          0          0           0           ; 
+}

@@ -9,5 +9,24 @@
 "MainHeight",11310
 "FullScreen",#FALSE#
 "ENDTOOL"
+"TOOLGROUP"
+"TOOL","_Group"
+"DockingArea",2
+"Height",9630
+"Width",8085
+"DockLine",0
+"DockingOffset",0
+"ToolbarArea",0
+"ToolbarLine",0
+"ToolbarOffset",0
+"ToolArea",0
+"ToolLine",0
+"ToolOffset",540
+"ToolFocus",0
+"Tool1","InstanceEditor"
+"Tool1 Dim","8055 9585"
+"ToolCount",1
+"ENDTOOL"
+"ENDTOOLGROUP"
 "ENDTOOLSET"
 "ENDTDE"
