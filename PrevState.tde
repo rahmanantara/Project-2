@@ -13,7 +13,7 @@
 "TOOL","_Group"
 "DockingArea",2
 "Height",9630
-"Width",8085
+"Width",6825
 "DockLine",0
 "DockingOffset",0
 "ToolbarArea",0
@@ -24,7 +24,7 @@
 "ToolOffset",540
 "ToolFocus",0
 "Tool1","InstanceEditor"
-"Tool1 Dim","8055 9585"
+"Tool1 Dim","6795 9585"
 "ToolCount",1
 "ENDTOOL"
 "ENDTOOLGROUP"

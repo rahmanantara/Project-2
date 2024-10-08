@@ -1,5 +1,5 @@
 Datalog report
-10/08/2024 03:52:37
+10/08/2024 00:31:37
       Prog Name:    rahmana_i8243_p2.igxl
        Job Name:    rahmana_i8243_p2.igxl
             Lot:     
@@ -13,7 +13,7 @@ Datalog report
     Site Number:    
          0
 
-    Device#: 19
+    Device#: 3
 
 
  Number   Site  Test Name       Pattern             1st Failed Cycle  Total Failed Cycles  
@@ -22,19 +22,19 @@ Datalog report
 
  Number   Site  Test Name       Pin         Channel  Low            Measured           High           Force          Loc     
 <cont_VBT1>
- 1        0     Continuity_VBT  I_CLK_26M   19.e106  N/A            -641.4651 mV       N/A            -100.0000 uA   0       
- 2        0     Continuity_VBT  O_CLK_A     19.g119  N/A            -639.8727 mV       N/A            -100.0000 uA   0       
- 3        0     Continuity_VBT  O_CLK_B     19.e113  N/A            -639.7893 mV       N/A            -100.0000 uA   0       
- 4        0     Continuity_VBT  O_CLK_C     19.g117  N/A            -639.7589 mV       N/A            -100.0000 uA   0       
- 5        0     Continuity_VBT  O_CLK_D     19.g137  N/A            -639.9488 mV       N/A            -100.0000 uA   0       
- 6        0     Continuity_VBT  PAT_IN_CLK  19.e151  N/A            -641.6511 mV       N/A            -100.0000 uA   0       
- 7        0     Continuity_VBT  PAT_IN_CTRL 19.g106  N/A            -639.0372 mV       N/A            -100.0000 uA   0       
- 8        0     Continuity_VBT  PAT_IN_D0   19.e139  N/A            -641.3505 mV       N/A            -100.0000 uA   0       
- 9        0     Continuity_VBT  PAT_IN_D1   19.e147  N/A            -641.8787 mV       N/A            -100.0000 uA   0       
+ 1        0     Continuity_VBT  I_CLK_26M   19.e106  N/A            -641.3125 mV       N/A            -100.0000 uA   0       
+ 2        0     Continuity_VBT  O_CLK_A     19.g119  N/A            -640.1779 mV       N/A            -100.0000 uA   0       
+ 3        0     Continuity_VBT  O_CLK_B     19.e113  N/A            -640.0946 mV       N/A            -100.0000 uA   0       
+ 4        0     Continuity_VBT  O_CLK_C     19.g117  N/A            -640.6747 mV       N/A            -100.0000 uA   0       
+ 5        0     Continuity_VBT  O_CLK_D     19.g137  N/A            -641.4752 mV       N/A            -100.0000 uA   0       
+ 6        0     Continuity_VBT  PAT_IN_CLK  19.e151  N/A            -642.8724 mV       N/A            -100.0000 uA   0       
+ 7        0     Continuity_VBT  PAT_IN_CTRL 19.g106  N/A            -639.8003 mV       N/A            -100.0000 uA   0       
+ 8        0     Continuity_VBT  PAT_IN_D0   19.e139  N/A            -643.4872 mV       N/A            -100.0000 uA   0       
+ 9        0     Continuity_VBT  PAT_IN_D1   19.e147  N/A            -643.1002 mV       N/A            -100.0000 uA   0       
  10       0     Continuity_VBT  SPI_CSN     19.g113  N/A            -641.4268 mV       N/A            -100.0000 uA   0       
- 11       0     Continuity_VBT  SPI_SCK     19.e115  N/A            -640.9110 mV       N/A            -100.0000 uA   0       
- 12       0     Continuity_VBT  SPI_SDI     19.e119  N/A            -641.6949 mV       N/A            -100.0000 uA   0       
- 13       0     Continuity_VBT  SPI_SDO     19.e117  N/A            -641.7926 mV       N/A            -100.0000 uA   0       
+ 11       0     Continuity_VBT  SPI_SCK     19.e115  N/A            -641.6743 mV       N/A            -100.0000 uA   0       
+ 12       0     Continuity_VBT  SPI_SDI     19.e119  N/A            -642.0002 mV       N/A            -100.0000 uA   0       
+ 13       0     Continuity_VBT  SPI_SDO     19.e117  N/A            -642.4031 mV       N/A            -100.0000 uA   0       
 
  Number   Site  Test Name       Pattern             1st Failed Cycle  Total Failed Cycles  
 <func_t2>
@@ -110,29 +110,17 @@ Datalog report
  77       0     Reg0X0E                     -1       54.0000        54.0000            54.0000        0.0000         0       
  78       0     Reg0X0F                     -1       56.0000        56.0000            56.0000        0.0000         0       
 <Sleep_IDD_VCC>
- 79       0     Icc_dynamic     VCC         15.e201  N/A            2.0070 uA          N/A            0.0000 V       0       
+ 79       0     Icc_dynamic     VCC         15.e201  N/A            2.0113 uA          N/A            0.0000 V       0       
 <Sleep_IDD_VCCIO>
- 80       0     Sleep_IDD_VCCIO VCCIO       15.e228  N/A            1.5367 uA          N/A            0.0000 V       0       
+ 80       0     Sleep_IDD_VCCIO VCCIO       15.e228  N/A            1.5375 uA          N/A            0.0000 V       0       
 <Static_IDD_VCC>
- 81       0     Static_IDD_VCC  VCC         15.e201  N/A            19.4036 uA         N/A            0.0000 V       0       
+ 81       0     Static_IDD_VCC  VCC         15.e201  N/A            19.4113 uA         N/A            0.0000 V       0       
 <Static_IDD_VCCIO>
- 82       0     Static_IDD_VCCI VCCIO       15.e228  N/A            16.8137 uA         N/A            0.0000 V       0       
-<Dynamic_IDD_test>
- 83       0     Icc_dynamic     VCC         15.e201  N/A            1.0002 mA          N/A            0.0000 V       0       
-<Dynamic_IDD_VCCIO>
- 84       0     Icc_dynamic     VCCIO       15.e228  N/A            756.5878 uA        N/A            0.0000 V       0       
-<IDDQ2>
- 85       0     IDDQ2           VCC         15.e201  20.0000 uA     57.8388 uA         1.0000 mA      0.0000 V       0       
- 86       0     IDDQ2           VCC         15.e201  20.0000 uA     205.8968 uA        1.0000 mA      0.0000 V       0       
- 87       0     Icc_dynamic     VCC         15.e201  20.0000 uA     805.8533 uA        1.0000 mA      0.0000 V       0       
-<IDDQ_VCCIO>
- 88       0     Icc_dynamic     VCCIO       15.e228  20.0000 uA     45.8225 uA         1.0000 mA      0.0000 V       0       
- 89       0     IDDQ_VCCIO      VCCIO       15.e228  20.0000 uA     160.8357 uA        1.0000 mA      0.0000 V       0       
- 90       0     IDDQ_VCCIO      VCCIO       15.e228  20.0000 uA     623.0339 uA        1.0000 mA      0.0000 V       0       
+ 82       0     Static_IDD_VCCI VCCIO       15.e228  N/A            16.8162 uA         N/A            0.0000 V       0       
 
  Site Failed tests/Executed tests
 ------------------------------------
-    0       0      91
+    0       0      83
 
  Site    Sort     Bin
 ------------------------------------
