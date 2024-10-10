@@ -1,0 +1,10 @@
+TAB_ORDER	FuseB_TSB:11;FuseB_PinLevel:10;AC Specs:9;DC Specs:8;Global Specs:7;Flow Table:6;SingleChans:4;Pinmap:3;Test Instances:5;
+terAC	Commercial.MaxAC
+terChanMap	SingleChans
+terDC	Commercial.vcc_min
+terEnv	
+terHiddenSheets	
+terJob	FuseBlow.igxl
+terName	FuseBlow.igxl
+terPart	
+terTI	PLL_Freq_Trim_GetTrimCode

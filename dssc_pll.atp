@@ -1,0 +1,34 @@
+import tset pll, tset0;
+
+instruments = {
+        (O_CLK_A):DigCap 1:serial:auto_trig_enable;
+}
+
+srm_vector                              
+pll_dssc                                 ( O_CLK_A, I_CLK_26M)
+{
+global dssc_start:
+$tset pll                                > X        1         ; 
+repeat 144                     $tset pll > X        1         ; 
+branch_expr = (cpuA_cond)      $tset pll > X        1         ; 
+set_cpu_cond (cpuA_cond)       $tset pll > X        1         ; 
+main_lbl:
+$tset pll                                > X        1         ; 
+$tset pll                                > X        1         ; 
+$tset pll                                > X        1         ; 
+$tset pll                                > X        1         ; 
+((O_CLK_A):DigCap = Store) 
+repeat 1000                    $tset pll > V        1         ; 
+$tset pll                                > X        1         ; 
+$tset pll                                > X        1         ; 
+$tset pll                                > X        1         ; 
+$tset pll                                > X        1         ; 
+$tset pll                                > X        1         ; 
+$tset pll                                > X        1         ; 
+$tset pll                                > X        1         ; 
+$tset pll                                > X        1         ; 
+$tset pll                                > X        1         ; 
+if (branch_expr) jump main_lbl $tset pll > X        1         ; 
+dssc_stop:
+halt                           $tset pll > X        1         ; 
+}

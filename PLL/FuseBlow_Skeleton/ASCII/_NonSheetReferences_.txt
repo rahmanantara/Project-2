@@ -1,0 +1,4 @@
+DTReferencesSheet,version=2.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	References		
+			
+	File Path	Comment	
+	{420B2830-E718-11CF-893D-00A0C9054228},1,0	C:\Windows\system32\scrrun.dll	

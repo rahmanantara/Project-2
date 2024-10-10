@@ -1,0 +1,30 @@
+DTTimesetBasicSheet,version=2.3:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Time Sets (Basic)																	
+																		
+	Timing Mode:	Single		Master Timeset Name:														
+	Time Domain:			Strobe Ref Setup Name:														
+																		
+		Cycle	Pin/Group			Data		Drive				Compare				Edge Resolution		
+	Time Set	Period	Name	Clock Period	Setup	Src	Fmt	On	Data	Return	Off	Mode	Open	Close	Ref Offset	Mode	Comment	
+	time_PLL_CLK_IO	=_tPeriod_CLKIO	I_CLK_26M	=_tPeriod_CLKIN	clock	PAT	RL		0	=0.5*_tPeriod_CLKIN	0	Off				Auto		
+	time_PLL_CLK_IO	=_tPeriod_CLKIO	O_CLK_A		i/o	PAT	NR		0		0	Edge	=0.6*_tPeriod_CLKIO			Auto		
+	time_PLL_CLK_IO	=_tPeriod_CLKIO	O_CLK_B		i/o	PAT	NR		0		0	Edge	=0.6*_tPeriod_CLKIO			Auto		
+	time_PLL_CLK_IO	=_tPeriod_CLKIO	O_CLK_C		i/o	PAT	NR		0		0	Edge	=0.6*_tPeriod_CLKIO			Auto		
+	time_PLL_CLK_IO	=_tPeriod_CLKIO	O_CLK_D		i/o	PAT	NR		0		0	Edge	=0.6*_tPeriod_CLKIO			Auto		
+	I2C_start	=1.2*us	I2C_SCL		i/o	PAT	NR		=0.5*C13	0.0000006	0	Off				Auto		
+	I2C_start	=1.2*us	I2C_SDA		i/o	PAT	NR		0	0.0000003	0	Off				Auto		
+	I2C_start	=1.2*us	I2C_SCL_EFUSE		i/o	PAT	NR		=0.5*C15	0.0000006	0	Off				Auto		
+	I2C_start	=1.2*us	I2C_SDA_EFUSE		i/o	PAT	NR		0	0.0000003	0	Off				Auto		
+	I2C_start	=1.2*us	EFUSE_ENA		i/o	PAT	NR		0	0.0000003	0	Off				Auto		
+	I2C_Comm	=1.2*us	I2C_SCL		i/o	PAT	RL		0.00000025	0.00000075	0	Off				Auto		
+	I2C_Comm	=1.2*us	I2C_SDA		i/o	PAT	NR		0	0.0000005	0	Edge	0.00000025			Auto		
+	I2C_Comm	=1.2*us	I2C_SCL_EFUSE		i/o	PAT	RL		0.00000025	0.00000075	0	Off				Auto		
+	I2C_Comm	=1.2*us	I2C_SDA_EFUSE		i/o	PAT	NR		0	0.0000005	0	Edge	0.00000025			Auto		
+	I2C_Comm	=1.2*us	EFUSE_ENA		i/o	PAT	NR		0	0.0000003	0	Off				Auto		
+	I2C_stop	=1.2*us	I2C_SCL		i/o	PAT	RL		0.00000001	0.0000006	0	Off				Auto		
+	I2C_stop	=1.2*us	I2C_SDA		i/o	PAT	RH		0	0.0000003	0	Off				Auto		
+	I2C_stop	=1.2*us	I2C_SCL_EFUSE		i/o	PAT	RL		0.00000001	0.0000006	0	Off				Auto		
+	I2C_stop	=1.2*us	I2C_SDA_EFUSE		i/o	PAT	RH		0	0.0000003	0	Off				Auto		
+	I2C_stop	=1.2*us	EFUSE_ENA		i/o	PAT	NR		0	0.0000003	0	Off				Auto		
+	I2C_Comm_slow	=1.2*us	I2C_SCL_EFUSE		i/o	PAT	NR		0	0.0000005	0	Off				Auto		
+	I2C_Comm_slow	=1.2*us	I2C_SDA_EFUSE		i/o	PAT	NR		0	0.0000005	0	Edge	=C28*0.9			Auto		
+	I2C_Comm_slow	=1.2*us	EFUSE_ENA		i/o	PAT	NR		0	0.0000003	0	Off				Auto		

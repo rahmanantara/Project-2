@@ -1,0 +1,21 @@
+DTLevelSheet,version=2.1:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Pin Levels					
+						
+	Pin/Group	Seq.	Parameter	Value	Comment	
+	VCC		Vps	=_VCC_value		
+	VCC		Isc	=_gl_lsc		
+	VCC		Tdelay	=_gl_Tdelay		
+	VCCIO		Vps	=_VCCIO_value		
+	VCCIO		Isc	=_gl_lsc		
+	VCCIO		Tdelay	=_gl_Tdelay		
+	I2C_EFUSE_PA		Vil	0		
+	I2C_EFUSE_PA		Vih	3.3		
+	I2C_EFUSE_PA		Vol	0.35		
+	I2C_EFUSE_PA		Voh	1.65		
+	I2C_EFUSE_PA		Iol	=1*mA		
+	I2C_EFUSE_PA		Ioh	=-1*mA		
+	I2C_EFUSE_PA		Vt	0.85		
+	I2C_EFUSE_PA		Vcl	-1.5		
+	I2C_EFUSE_PA		Vch	3.5		
+	I2C_EFUSE_PA		VoutLoTyp	0		
+	I2C_EFUSE_PA		VoutHiTyp	0		
+	I2C_EFUSE_PA		DriverMode	Largeswing-HiZ		

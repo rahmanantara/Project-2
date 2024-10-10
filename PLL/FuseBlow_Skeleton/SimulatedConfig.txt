@@ -1,0 +1,100 @@
+# This file was generated on 06/09/11 at 08:51:23.
+
+#TesterConfig.txt loaded from: C:\Program Files\Teradyne\IG-XL\8.00.00_uflx\tester\testerconfig.txt
+
+# In order to load this configuration information in a pre-3.64.50
+# version of IG-XL, it must be converted to the version 0 format.
+# To convert this file from version 1 to version 0:
+#	1. Make a backup of this file.
+#	2. Copy the information between the tags <TEST_HEAD TH 1> and </TEST_HEAD TH 1>,
+#	   paste it into a new file, and save that file as SimulatedConfig.txt in the current test program's directory.
+#	3. Copy the information between the tags <BACKPLANE-DIB_CABLES TH 1> and </BACKPLANE-DIB_CABLES TH 1>,
+#	   paste it into a new file, and save that file as DibSlotConfig.txt in the current test program's directory.
+
+<Version>
+1
+</Version>
+
+<Configuration>
+UltraFlex
+</Configuration>
+
+
+<TEST_HEAD TH 1>
+#slot[.subslot]	Type		idprom (type serial rev company)
+
+0.0		UltraPAC		605-743-01 0200AB1F 1041-A 5445
+   		UltraPAC		939-420-01 03052CB4 0947-A 5445
+   		UltraPAC-0		939-392-01 03053D2F 1041-A 5445
+   		UltraPAC-1		939-392-01 03052CFF 1041-A 5445
+   		PowerBoard		608-806-00 03052D0A 1028-A 5445
+4.0		HSS-10G			974-245-40 900cba7 1115-A 5445
+   		HSS-10G			612-132-00 30572a0 1115-A 5445
+   		PowerBoard		956-462-11 c0ea2d3 1033-A 5445
+   		ChanBoard0		956-160-40 305ae46 1112-A 5445
+   		ChanBoard1		956-160-40 305ae4d 1112-A 5445
+6.0		DC-07		604-375-02 0600F612 1113-A 5445
+		aka: 604-375-00
+   		DC-07		939-420-01 0304C950 1108-A 5445
+		aka: 939-420-00
+   		DC-07Power		608-807-00 03056E81 1032-A 5445
+   		DC-07Rider-1		610-617-02 0305721E 1113-A 5445
+		aka: 610-617-00
+   		DC-07Rider-0		604-534-02 0305491D 1113-A 5445
+		aka: 604-534-00
+   		PSP		956-308-00 303191a 0443-B 5445
+7.0		VHDVS		805-052-05 0C344BD6 1418-A 5445
+    		VHDVS		939-420-01 0C344F75 1150-A 5445
+7.1		VHDVSPower		805-054-00 0C344A4A 1418-A 5445
+    		VHDVSPower		606-103-01 0C344A4A 1418-A 5445
+7.2		VHDVSRider-0		805-053-00 0C344AED 1125-A 5445
+    		VHDVSRider-0		939-421-02 0C344AED 1125-A 5445
+7.3		VHDVSRider-1		805-053-00 0C345012 1125-A 5445
+    		VHDVSRider-1		939-421-02 0C345012 1125-A 5445
+8.0		UltraPAC		605-743-01 0200AB1F 1041-A 5445
+   		UltraPAC		939-420-01 03052CB4 0947-A 5445
+   		UltraPAC-0		939-392-01 03053D2F 1041-A 5445
+   		UltraPAC-1		939-392-01 03052CFF 1041-A 5445
+   		PowerBoard		608-806-00 03052D0A 1028-A 5445
+9.0		HexVS			974-294-00 0000000 0000-A 0000
+		HexVS			956-388-00 0000000 0000-A 0000
+14.0		HSD-U		604-356-00 900cb28 1018-A 5445
+    		HSD-U		601-132-00 30514af 0942-A 5445
+    		PowerBoard		601-135-00 304bcf7 1014-A 5445
+    		ChanBoard0		601-130-00 3052d49 1018-A 5445
+    		ChanBoard1		601-130-00 3053fe7 1018-A 5445
+16.0		HSD-U		604-356-20 900cb35 1043-A 5445
+    		HSD-U		601-132-00 3053bb7 0942-A 5445
+    		PowerBoard		601-135-00 3053692 1014-A 5445
+    		ChanBoard0		601-130-01 3053c2c 1043-A 5445
+    		ChanBoard1		601-130-01 3053c2e 1043-A 5445
+20.0		HSD-U		604-356-00 900cb28 1018-A 5445
+    		HSD-U		601-132-00 30514af 0942-A 5445
+    		PowerBoard		601-135-00 304bcf7 1014-A 5445
+    		ChanBoard0		601-130-00 3052d49 1018-A 5445
+    		ChanBoard1		601-130-00 3053fe7 1018-A 5445
+22.0		VHDVS		805-052-05 0C344BD6 1418-A 5445
+    		VHDVS		939-420-01 0C344F75 1150-A 5445
+22.1		VHDVSPower		805-054-00 0C344A4A 1418-A 5445
+    		VHDVSPower		606-103-01 0C344A4A 1418-A 5445
+22.2		VHDVSRider-0		805-053-00 0C344AED 1125-A 5445
+    		VHDVSRider-0		939-421-02 0C344AED 1125-A 5445
+22.3		VHDVSRider-1		805-053-00 0C345012 1125-A 5445
+    		VHDVSRider-1		939-421-02 0C345012 1125-A 5445
+24.0		SupportBoard		974-221-03 c01595a 0744-A 5445
+    		SupportBoard		956-416-30 c01709b 0739-B 5445
+    		PowerBoard		956-359-10 c015843 0744-C 5445
+    		TCM		956-419-02 c0170a6 0637-C 5445
+    		XGEM		956-364-00 3034fb3 0336-A 5445
+    		DCCM		949-938-02 C0158A6 0744-C 5445
+25.0		SupportBoard		974-221-11 3020e2d 0546-A 5445
+    		SupportBoard		956-416-11 301d48e 0536-A 5445
+    		PowerBoard		956-359-21 3020aa5 0510-C 5445
+    		XGEM		956-364-00 301e987 0336-A 5445
+62.0		DistributionBoard		956-455-00 302aadd 0639-A 5445
+    		DistributionBoard		956-455-00 302aadd 0639-A 5445
+63.0		DistributionBoard		956-455-00 302aad3 0639-A 5445
+    		DistributionBoard		956-455-00 302aad3 0639-A 5445
+#66.0		VirtualDSPBrd		979-223-00 1111111 0000-A 0000
+#    		VirtualDSPBrd		979-223-00 1111111 0000-A 0000
+</TEST_HEAD TH 1>

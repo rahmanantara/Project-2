@@ -1,0 +1,11 @@
+#Minimum License Required By Job:                 FuseBlow.igxl                                                                   
+
+#FEATURE NAME                 ENABLED LEVEL    USED LICENSE COUNT   VERSION              
+HSD_DSSC                      1                1                    0.0                  
+HSD_Speed                     50               1                    0.0                  
+HSD1600_Channels              1                1                    0.0                  
+IG-XL_DataTool_Jaguar         Yes              1                    10.3                 
+IG-XL_EEPROM_ACCESS           Yes              1                    0.0                  
+NumSlots                      1                10                   0.0                  
+TDA_Enable                    1                1                    0.0                  
+UltraVIChannel                1                3                    0.0                  

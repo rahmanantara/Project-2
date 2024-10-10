@@ -1,0 +1,23 @@
+DTDCSpecSheet,version=3.0:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:tabcolor=10498160	DC Specs												
+													
+			Selectors			Commercial			Zero_Spec				
+	Symbol	Value	vcc_min	vcc_max	vcc_nom	Typ	Min	Max	Typ	Min	Max	Comment	
+	VCC_value	#N/A	Min	Max	Typ	1.8	1.8	1.8	0	0	0		
+	VCCIO_value	#N/A	Min	Max	Typ	3.3	3.3	3.3	0	0	0		
+	vih	#N/A	Min	Max	Typ	2.5	2	3.45	0	0	0		
+	vil	#N/A	Min	Max	Typ	0.8	-0.3	0.8	0	0	0		
+	voh	#N/A	Min	Min	Min	=_VCCIO_value - 0.4	=_VCCIO_value - 0.4	=_VCCIO_value - 0.4	0	0	0		
+	vol	#N/A	Max	Max	Max	0.4	0.4	0.4	0	0	0		
+	IOL	#N/A	Max	Max	Max	=16*mA	=16*mA	=16*mA	0	0	0		
+	IOH	#N/A	Max	Max	Max	=-16*mA	=-16*mA	=-16*mA	0	0	0		
+	VIL_SPI	#N/A	Max	Max	Max	0	0	0	0	0	0		
+	VIH_SPI	#N/A	Typ	Typ	Typ	=_VCCIO_value	=_VCCIO_value	=_VCCIO_value	0	0	0		
+	VOL_SPI	#N/A	Typ	Typ	Typ	0.35	0.35	0.35	0	0	0		
+	VOH_SPI	#N/A	Typ	Typ	Typ	1.65	1.65	1.65	0	0	0		
+	IOL_SPI	#N/A	Typ	Typ	Typ	=1*mA	=1*mA	=1*mA	0	0	0		
+	IOH_SPI	#N/A	Typ	Typ	Typ	=-1*mA	=-1*mA	=-1*mA	0	0	0		
+	vt	#N/A	Min	Max	Typ	1.5	1.5	1.5	0	0	0		
+	icc_output_high	#N/A	Min	Max	Max	0	0	=65*mA	0	0	0		
+	icc_output_low	#N/A	Min	Max	Max	0	0	=20*mA	0	0	0		
+	sample_size	#N/A	Min	Max	Max	10	10	10	0	0	0		
+	sample_time	#N/A	Min	Max	Max	=1*ms	=1*ms	=1*ms	0	0	0		
