@@ -1,0 +1,30 @@
+import tset TS_PLL, TS_PLL_DSSC;
+
+instruments = {
+        (O_CLK_A):DigCap 1:auto_trig_enable;
+}
+
+srm_vector     
+PLL_DSSC        ( $tset      , I_CLK_26M, O_CLK_A)
+{
+                > TS_PLL_DSSC  1          X       ; 
+global LoopPll:
+                > TS_PLL_DSSC  1          X       ; 
+                > TS_PLL_DSSC  1          X       ; 
+                > TS_PLL_DSSC  1          X       ; 
+                > TS_PLL_DSSC  1          X       ; 
+repeat 1000     > TS_PLL_DSSC  1          X       ; //wait time for clock out stable
+((O_CLK_A):DigCap = Store) 
+                > TS_PLL_DSSC  1          V       ; 
+((O_CLK_A):DigCap = Store) 
+repeat 999, stv > TS_PLL_DSSC  1          V       ; //tset=5M,capture 200 samples,200/5M*510k~=2.02cycle
+                > TS_PLL_DSSC  1          X       ; 
+                > TS_PLL_DSSC  1          X       ; 
+                > TS_PLL_DSSC  1          X       ; 
+                > TS_PLL_DSSC  1          X       ; 
+                > TS_PLL_DSSC  1          X       ; 
+                > TS_PLL_DSSC  1          X       ; 
+                > TS_PLL_DSSC  1          X       ; 
+                > TS_PLL_DSSC  1          X       ; 
+halt            > TS_PLL_DSSC  1          X       ; 
+}
