@@ -5,7 +5,7 @@ HSDP_DSSC                     1                2                    0.0
 HSDP_Enable                   1                13                   0.0                  
 HSDP_MemoryDepth              1                1                    0.0                  
 HSDP_nWire                    1                1                    0.0                  
-HSDP_Speed                    50               13                   0.0                  
+HSDP_Speed                    50               9                    0.0                  
 MainSlots                     Yes              1                    0.0                  
 TDA_Enable                    1                1                    0.0                  
 VS-800mA                      1                2                    0.0                  
