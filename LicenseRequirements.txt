@@ -1,7 +1,7 @@
 #Minimum License Required By Job:                 rahmana_i8243_p2.igxl                                                           
 
 #FEATURE NAME                 ENABLED LEVEL    USED LICENSE COUNT   VERSION              
-HSDP_DSSC                     1                2                    0.0                  
+HSDP_DSSC                     1                1                    0.0                  
 HSDP_Enable                   1                13                   0.0                  
 HSDP_MemoryDepth              1                1                    0.0                  
 HSDP_nWire                    1                1                    0.0                  
